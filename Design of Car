@@ -1,4 +1,3 @@
-3.3	Design of the car
 The car consists of
 1.	One Arduino board that controls the working and interactions of different components
 2.	4 motors that are connected to a motor driver that is in turn connected to the Arduino. The motor driver has an independent power supply from a 9V battery.
