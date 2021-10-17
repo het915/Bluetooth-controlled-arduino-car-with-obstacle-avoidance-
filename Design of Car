@@ -1,0 +1,8 @@
+3.3	Design of the car
+The car consists of
+1.	One Arduino board that controls the working and interactions of different components
+2.	4 motors that are connected to a motor driver that is in turn connected to the Arduino. The motor driver has an independent power supply from a 9V battery.
+3.	HC-05 Bluetooth module that provides the means of communication between the car and the mobile app that controls the car. The module is connected to the Arduino through TXD and RXD pins. The TXD is the transmitter pin and is connected to the RX or receiver pin of the Arduino. The RXD is the receiver pin and is connected to the TX or transmitter pin of the Arduino. The VCC and GND pins are connected to the breadboard power supply.
+4.	2 HC-SR04 ultrasonic sensor that is connected to the Arduino and the breadboard power supply.
+5.	3 LED lights connected to the analog pins of the Arduino through 3 220ohm resistors. The LED draws power directly from the Arduino through the VCC and GND pins of the Arduino.
+6.	The breadboard power supply is connected to a 9V battery through the breadboard power supply module that allows other components to draw power from the breadboard.
