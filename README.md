@@ -1,4 +1,4 @@
-# Bluetooth-controlled-arduino-car-with-obstacke-avoidance-
+# Bluetooth-controlled-arduino-car-with-obstacle-avoidance-
 This prototype is a Bluetooth controlled car which uses an ultrasonic sensor to determine the distance of the obstacle. This car also helps by offering parking assistance.
 # Working of the Car
 When the power of the car is switched on the Arduino first establishes the Bluetooth connection with the phone using the HC-05 Bluetooth module at a serial baud rate of 9600 bits/s. The phone is connected to the car and then the command from the app is transmitted to the Arduino through the Bluetooth module. The command from the app  is then processed in the Arduino.
